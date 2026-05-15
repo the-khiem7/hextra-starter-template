@@ -14,6 +14,7 @@ defaultContentLanguage: en
 languages:
   en:
     label: English
+    languageName: English
     locale: en
     weight: 1
     title: Hextra
@@ -24,6 +25,7 @@ languages:
           Hextra **v0.12** is here! 🎉 Discover [what's new]({{% relref "blog/v0.12" %}})
   vi:
     label: Tiếng Việt
+    languageName: Tiếng Việt
     locale: vi-VN
     weight: 2
     title: Hextra
