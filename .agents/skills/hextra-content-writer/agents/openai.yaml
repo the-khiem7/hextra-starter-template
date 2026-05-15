@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hextra Content Writer"
+  short_description: "Drafts Hugo pages using local Hextra patterns."
+  brand_color: "#2563EB"
+  default_prompt: "Use $hextra-content-writer to create or revise a page in this Hextra Hugo site from a short brief."
+
+policy:
+  allow_implicit_invocation: true

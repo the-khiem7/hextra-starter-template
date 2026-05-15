@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hextra Config Editor"
+  short_description: "Edits hugo.yaml with config-first decisions."
+  brand_color: "#D97706"
+  default_prompt: "Use $hextra-config-editor to update `hugo.yaml` for this Hextra Hugo site with the smallest correct config change."
+
+policy:
+  allow_implicit_invocation: true

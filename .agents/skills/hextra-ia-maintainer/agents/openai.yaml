@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hextra IA Maintainer"
+  short_description: "Maintains section structure and navigation."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $hextra-ia-maintainer to place, order, or restructure content in this Hextra Hugo site with minimal changes."
+
+policy:
+  allow_implicit_invocation: true

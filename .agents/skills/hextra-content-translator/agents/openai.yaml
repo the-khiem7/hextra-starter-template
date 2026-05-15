@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hextra Content Translator"
+  short_description: "Keeps English and Vietnamese pages in sync."
+  brand_color: "#059669"
+  default_prompt: "Use $hextra-content-translator to translate or sync an English and Vietnamese page pair in this Hextra Hugo site."
+
+policy:
+  allow_implicit_invocation: true
