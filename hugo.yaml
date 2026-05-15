@@ -1,6 +1,6 @@
 # Hugo configuration file
 baseURL: "/"
-title: "Hextra"
+title: "Your Site Name"
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -14,26 +14,14 @@ defaultContentLanguage: en
 languages:
   en:
     label: English
-    languageName: English
     locale: en
     weight: 1
-    title: Hextra
+    title: Your Site Name
     params:
       banner:
-        key: announcement-v0.12
+        key: starter-template
         message: |
-          Hextra **v0.12** is here! 🎉 Discover [what's new]({{% relref "blog/v0.12" %}})
-  vi:
-    label: Tiếng Việt
-    languageName: Tiếng Việt
-    locale: vi-VN
-    weight: 2
-    title: Hextra
-    params:
-      banner:
-        key: announcement-v0.12
-        message: |
-          Hextra **v0.12** is here! 🎉 Discover [what's new]({{% relref "blog/v0.12" %}})
+          Starter template ? replace this sample content with your own.
 
 module:
   imports:
@@ -60,76 +48,22 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 1
-    - identifier: showcase
-      name: Showcase
-      pageRef: /showcase
+    - identifier: about
+      name: About
+      pageRef: /about
       weight: 2
-      params:
-        type: link
-        icon: collection
-    - identifier: more
-      name: More
-      weight: 3
-    - identifier: versions
-      name: Versions
-      weight: 4
     - name: Search
-      weight: 5
+      weight: 3
       params:
         type: search
     - name: GitHub
-      weight: 6
-      url: "https://github.com/imfing/hextra"
+      weight: 4
+      url: "https://github.com/your-name/your-repo"
       params:
         icon: github
-    - identifier: development
-      name: Development ↗
-      url: https://imfing.github.io/hextra/versions/latest/
-      parent: versions
-      params:
-        type: link
-        icon: beaker
-    - identifier: v0.10
-      name: v0.10 ↗
-      url: https://imfing.github.io/hextra/versions/v0.10/
-      parent: versions
-    - identifier: v0.11
-      name: v0.11 ↗
-      url: https://imfing.github.io/hextra/versions/v0.11/
-      parent: versions
-    - identifier: about
-      name: About
-      pageRef: /about
-      parent: more
-      weight: 1
-    - identifier: archives
-      name: Archives
-      pageRef: /archives
-      parent: more
-      weight: 2
-    - identifier: glossary
-      name: Glossary
-      pageRef: /glossary
-      parent: more
-      weight: 3
-
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
-    - identifier: about
-      name: About
-      pageRef: /about
-      weight: 2
-    - identifier: hugoDocs
-      name: Hugo Docs ↗
-      url: "https://gohugo.io/documentation/"
-      weight: 3
 
 params:
-  description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
+  description: A clean Hextra starter template for blogs, notes, and lightweight documentation.
   externalLinkDecoration: true
 
   navbar:
@@ -147,7 +81,7 @@ params:
   footer:
     enable: true
     displayCopyright: true
-    displayPoweredBy: true
+    displayPoweredBy: false
     width: normal
 
   displayUpdatedDate: true
@@ -162,8 +96,7 @@ params:
       tokenize: forward
 
   editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra/edit/main/docs/content"
+    enable: false
 
   blog:
     list:
@@ -173,10 +106,6 @@ params:
       pagerSize: 20
     article:
       displayPagination: true
-
-  archives:
-    section: blog
-    dateFormat: "Jan 02"
 
   toc:
     displayTags: true
@@ -190,13 +119,6 @@ params:
     width: normal
     contextMenu:
       enable: false
-      links:
-        - name: Open in ChatGPT
-          icon: chatgpt
-          url: "https://chatgpt.com/?hints=search&q=I%27m+looking+at+this+documentation%3A+{url}%0AHelp+me+understand+how+to+use+it."
-        - name: Open in Claude
-          icon: claude
-          url: "https://claude.ai/new?q=I%27m+looking+at+this+documentation%3A+{url}%0AHelp+me+understand+how+to+use+it."
 
   imageZoom:
     enable: true

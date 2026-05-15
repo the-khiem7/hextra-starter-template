@@ -1,20 +1,43 @@
 ---
 title: About
-toc: false
 ---
 
-Hextra is designed to be a simple, fast, and flexible theme for building modern static websites. It is especially well-suited for documentation websites but can also be used for various types of sites, such as blogs, portfolios, and more.
+# About
 
-Hugo, like Jekyll, is a static site generator. What sets Hugo apart is that it is a single binary, making it easy to install and run on various platforms. It is also extremely fast and reliable, capable of rendering a site with thousands of pages in milliseconds.
+{{< callout type="info" >}}
+This page is intentionally written as a starter profile. Replace the text, links, and examples with your own background and writing focus.
+{{< /callout >}}
 
-Hextra is built with a mindset focused on having a minimal footprint. To get started, no extra dependencies like Node.js packages are required; all you need is a single YAML configuration file, along with your Markdown content. Thus, we can focus on writing quality content instead of setting up tooling.
+Hi, I'm the author of this site. I use it for technical notes, longer essays, and lightweight project documentation.
 
-## Credits
+{{< cards cols="2" >}}
+  {{< card link="/docs" title="Docs" icon="book-open" subtitle="Evergreen notes, references, and guides." >}}
+  {{< card link="/blog" title="Blog" icon="pencil-alt" subtitle="Updates, essays, and time-based writing." >}}
+{{< /cards >}}
 
-Hextra cannot be built without the following tools and inspirations:
+## What to replace
 
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Heroicons](https://heroicons.com/)
-- [Nextra](https://nextra.vercel.app/)
-- [Next.js](https://nextjs.org/)
+{{% steps %}}
+
+### Add your introduction
+
+Write a short summary of who you are and what this site covers.
+
+### Add your focus areas
+
+Mention your main topics such as software engineering, research notes, tools, or learning logs.
+
+### Add your links
+
+Replace placeholders with your GitHub, website, newsletter, or social links.
+
+{{% /steps %}}
+
+{{< details title="Example profile block" >}}
+
+- Name: Your name
+- Role: Writer, engineer, researcher, or builder
+- Topics: Notes, tutorials, architecture, workflows
+- Links: GitHub, personal site, email, social profiles
+
+{{< /details >}}
