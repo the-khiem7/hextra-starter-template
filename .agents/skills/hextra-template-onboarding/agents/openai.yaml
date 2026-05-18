@@ -1,0 +1,8 @@
+interface:
+  display_name: "Hextra Template Onboarding"
+  short_description: "Converts Hextra starter content into a first complete infosite."
+  brand_color: "#7C3AED"
+  default_prompt: "Use $hextra-template-onboarding to convert this Hextra starter into a complete infosite for a new domain while preserving native Hextra structure."
+
+policy:
+  allow_implicit_invocation: true

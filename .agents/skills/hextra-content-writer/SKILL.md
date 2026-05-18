@@ -1,6 +1,6 @@
 ---
 name: hextra-content-writer
-description: Use when an agent needs to create or revise Hugo content in this Hextra site while preserving the template's existing page formats. Triggers include homepage copy swaps without layout rewrites, choosing between direct pages and hub pages, writing minimal front matter, preserving section conventions, selecting Hextra shortcodes only when already justified by local patterns, and keeping output aligned with the site's bilingual structure and navigation rules.
+description: Use when an agent needs to create or revise Hugo content in this Hextra site while preserving the template's existing page formats. Triggers include homepage copy swaps without layout rewrites, choosing between direct pages and hub pages, writing minimal front matter, preserving section conventions, selecting Hextra shortcodes only when already justified by local patterns, and keeping output aligned with the site's bilingual structure and navigation rules. Do not use it as the primary skill for first-time starter-to-infosite conversion; use `hextra-template-onboarding` first.
 ---
 
 # Hextra Content Writer
@@ -17,6 +17,7 @@ Use this skill when the primary job is writing or revising page content.
 
 Route elsewhere when needed:
 
+- use `hextra-template-onboarding` for first-time starter/demo conversion, site-wide infosite repurposing, root-level direct-page planning, asset-driven page planning, and cleanup of obsolete template sections
 - use `hextra-content-translator` for bilingual synchronization between `.md` and `.vi.md`
 - use `hextra-ia-maintainer` when the main task is deciding placement, section shape, `_index` strategy, or ordering
 - use `hextra-theme-customizer` only when content and `hugo.yaml` cannot express the required presentation change
@@ -107,6 +108,7 @@ Read `references/rare-features.md` only if common blocks are not enough.
 
 ## Guardrails
 
+- do not act as the primary orchestration skill for first-time starter-to-infosite conversion
 - do not invent new content architecture when an existing section pattern fits
 - do not redesign homepage files when the request is only about content
 - do not convert a homepage into a generic Markdown page
